@@ -1,0 +1,76 @@
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  height: 8%;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.settings {
+  height: 50%;
+}
+
+.exit {
+  height: 50%;
+}
+
+table {
+  background-color:#FFFFCC;
+  border-collapse:collapse;
+  border:1px solid #D6D6D6;
+  color:#000000;
+  width:100%;
+  table-layout: fixed;
+}
+
+.days {
+  height: 3%;
+  background-color: black;
+}
+
+.calendar {
+  height: 89%;
+}
+
+table .days {
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  border: 1px solid black;
+}
+
+tr {
+  height: 160px;
+  background-color: white;
+}
+
+td {
+  width: 14.2857%;
+  height: 30px;
+}
+
+
+#thurs-2 {
+  background-color: blue;
+}
+
+#thurs-2 {
+  width: 10%;
+}
