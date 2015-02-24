@@ -28,22 +28,33 @@ body {
   margin-left: 1%;
 }
 
+.left-buttons > ul {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.left-buttons li {
+  height: 100%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
 .left-buttons img {
   height: 48%;
   margin-left: 3%;
-  margin-top: 3.5%;
+  margin-bottom: 50%;
 }
 
 .left-buttons .search {
   height: 50%;
-  margin-top: -10%;
   margin-left: 4%;
 }
 
 .left-buttons .search-field {
   position: absolute;
-  margin-top: 1.7%;
-  margin-left: 2%;
+  margin-left: 0;
+  margin-top: 1.5%;
   border: 0.15em solid black;
   height: 3%;
   width: 12%;
@@ -57,30 +68,42 @@ body {
   margin-right: 1%;
 }
 
+.right-buttons > ul {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.right-buttons li {
+  float: right;
+  height: 100%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
 .right-buttons img {
   float: right;
   height: 55%;
   margin-right: 3%;
-  margin-top: 3%;
+  margin-top: 45%;
 }
 
 .right-buttons .friends {
   height: 80%;
-  margin-top: 1.4%;
+  margin-top: 13%;
 }
 
 .right-buttons .bunny {
   height: 55%;
-  margin-top: 2.2%;
+  margin-top: 34%
 }
 
 .right-buttons .cal {
   float: right;
   height: 65%;
-  margin-top: 2.2%;
   margin-right: 4.5%;
+  margin-top: 30%;
 }
-
 
 table {
   background-color:#FFFFCC;
