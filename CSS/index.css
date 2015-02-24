@@ -114,3 +114,10 @@ td div {
   /*background-color: blue;*/
   height: auto;
 }
+
+/* EVENT WIDGET */
+
+iframe {
+  height: 100%;
+  width:100%;
+}
