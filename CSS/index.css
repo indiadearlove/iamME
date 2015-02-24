@@ -21,13 +21,86 @@ body {
   color: black;
 }
 
-.settings {
+.left-buttons {
+  display: inline-block;
+  height: 100%;
+  width: 40%;
+  margin-left: 1%;
+}
+
+.left-buttons img {
+  height: 48%;
+  margin-left: 3%;
+  margin-top: 3.5%;
+}
+
+.left-buttons .search {
+  height: 50%;
+  margin-top: -10%;
+  margin-left: 4%;
+}
+
+
+.right-buttons {
+  display: inline;
+  float: right;
+  height: 100%;
+  width: 40%;
+  margin-right: 1%;
+}
+
+.right-buttons img {
+  float: right;
+  height: 55%;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.right-buttons .friends {
+  height: 80%;
+  margin-top: 1.4%;
+}
+
+.right-buttons .bunny {
+  height: 55%;
+  margin-top: 2.2%;
+}
+
+.right-buttons .cal {
+  float: right;
+  height: 65%;
+  margin-top: 2.2%;
+  margin-right: 4.5%;
+}
+
+/*.settings {
   height: 50%;
 }
 
-.exit {
+.log-out {
   height: 50%;
 }
+
+.search {
+  height: 50%;
+}
+
+.cal {
+  height: 50%;
+}
+
+.bunny {
+  height: 50%;
+}
+
+.friends {
+  height: 50%;
+}
+
+.plus {
+  height: 50%;
+}*/
+
 
 table {
   background-color:#FFFFCC;
