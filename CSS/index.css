@@ -104,6 +104,7 @@ table .days {
   border: 1px solid black;
 }
 
+
 tr {
   height: 160px;
   width: 100%;
@@ -120,4 +121,12 @@ td div {
 iframe {
   height: 100%;
   width:100%;
+}
+
+table td:hover{
+    -webkit-transform: scale(4, 4);
+    -moz-transform: scale(4, 4);
+    -o-transform: scale(4, 4);
+    -ms-transform: scale(4, 4);
+    transform: scale(4, 4);
 }
