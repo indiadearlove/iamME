@@ -183,12 +183,6 @@ body {
 
 
 
-
-
-
-
-
-
 table {
   background-color:#FFFFCC;
   border-collapse:collapse;
@@ -211,6 +205,12 @@ table .days {
   border: 1px solid black;
 }
 
+td, th {
+    width: 65px;
+    max-width: 65px;
+    white-space: nowrap;
+    overflow: hidden;
+}
 
 tr {
   height: 160px;
@@ -231,9 +231,9 @@ iframe {
 }
 
 table td:hover{
-    -webkit-transform: scale(4, 4);
-    -moz-transform: scale(4, 4);
-    -o-transform: scale(4, 4);
-    -ms-transform: scale(4, 4);
-    transform: scale(4, 4);
+    -webkit-transform: scale(3, 3);
+    -moz-transform: scale(3, 3);
+    -o-transform: scale(3, 3);
+    -ms-transform: scale(3, 3);
+    transform: scale(3, 3);
 }
