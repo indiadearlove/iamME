@@ -25,28 +25,41 @@ body {
   display: inline-block;
   height: 100%;
   width: 40%;
-  margin-left: 1%;
+}
+
+.left-buttons > ul {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.left-buttons li {
+  height: 100%;
+  display: inline-block;
+  margin-right: 4%;
 }
 
 .left-buttons img {
   height: 48%;
   margin-left: 3%;
-  margin-top: 3.5%;
+  margin-bottom: 50%;
 }
 
 .left-buttons .search {
   height: 50%;
-  margin-top: -10%;
   margin-left: 4%;
 }
 
 .left-buttons .search-field {
   position: absolute;
-  margin-top: 1.7%;
-  margin-left: 2%;
-  border: 0.15em solid black;
+  outline:none;
+  margin-left: 0;
+  margin-top: 1.5%;
+  border: 0.2em solid black;
   height: 3%;
   width: 12%;
+  font-size: 0.7em;
+  padding-left: 0.5%;
 }
 
 .right-buttons {
@@ -57,29 +70,123 @@ body {
   margin-right: 1%;
 }
 
+.right-buttons > ul {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.right-buttons li {
+  float: right;
+  height: 100%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
 .right-buttons img {
   float: right;
   height: 55%;
   margin-right: 3%;
-  margin-top: 3%;
+  margin-top: 45%;
 }
 
 .right-buttons .friends {
   height: 80%;
-  margin-top: 1.4%;
+  margin-top: 13%;
 }
 
 .right-buttons .bunny {
   height: 55%;
-  margin-top: 2.2%;
+  margin-top: 34%
 }
 
 .right-buttons .cal {
   float: right;
   height: 65%;
-  margin-top: 2.2%;
   margin-right: 4.5%;
+  margin-top: 30%;
 }
+
+.right-buttons li ul {
+  display: none;
+}
+
+/* ----------cal drop down---------------*/
+
+.right-buttons li:hover ul {
+  display: block;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1% 2%;
+  margin-top: 4.2%;
+  margin-left: -2%;
+  text-align: center;
+}
+
+.right-buttons li ul li {
+  display: block;
+  float: none;
+  line-height: 2.2em;
+}
+
+/* -----------------------------------------*/
+
+
+/* ----------plus drop down---------------*/
+
+.right-buttons li:hover .plus-dropdown {
+  display: block;
+  position: absolute;
+  width: 10%;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1%;
+  margin-top: 4.2%;
+  margin-left: -8%;
+  text-align: center;
+}
+
+.right-buttons li ul li {
+  display: block;
+  float: none;
+  line-height: 2.2em;
+}
+
+/* -----------------------------------------*/
+
+.left-buttons li ul {
+  display: none;
+}
+
+/* ----------settings---------------*/
+
+.left-buttons li:hover ul {
+  display: block;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1% 2%;
+  margin-top: -0.5%;
+  margin-left: -2%;
+  text-align: center;
+}
+
+.left-buttons li ul li {
+  display: block;
+  float: none;
+  line-height: 2.2em;
+}
+
+
+/* -----------------------------------------*/
+
+
+
+
+
+
+
 
 
 table {
