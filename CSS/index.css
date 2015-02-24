@@ -231,9 +231,5 @@ iframe {
 }
 
 table td:hover{
-    -webkit-transform: scale(3, 3);
-    -moz-transform: scale(3, 3);
-    -o-transform: scale(3, 3);
-    -ms-transform: scale(3, 3);
-    transform: scale(3, 3);
+  transform: scale(2, 2);
 }
