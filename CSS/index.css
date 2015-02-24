@@ -40,6 +40,14 @@ body {
   margin-left: 4%;
 }
 
+.left-buttons .search-field {
+  position: absolute;
+  margin-top: 1.7%;
+  margin-left: 2%;
+  border: 0.15em solid black;
+  height: 3%;
+  width: 12%;
+}
 
 .right-buttons {
   display: inline;
@@ -73,47 +81,14 @@ body {
   margin-right: 4.5%;
 }
 
-/*.settings {
-  height: 50%;
-}
-
-.log-out {
-  height: 50%;
-}
-
-.search {
-  height: 50%;
-}
-
-.cal {
-  height: 50%;
-}
-
-.bunny {
-  height: 50%;
-}
-
-.friends {
-  height: 50%;
-}
-
-.plus {
-  height: 50%;
-}*/
-
 
 table {
   background-color:#FFFFCC;
   border-collapse:collapse;
-  border:1px solid #D6D6D6;
+  border:1px solid #E6E6E6;
   color:#000000;
   width:100%;
   table-layout: fixed;
-}
-
-.days {
-  height: 3%;
-  background-color: black;
 }
 
 .calendar {
@@ -125,25 +100,17 @@ table .days {
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.8em;
   border: 1px solid black;
 }
 
 tr {
   height: 160px;
+  width: 100%;
   background-color: white;
 }
 
-td {
-  width: 14.2857%;
-  height: 30px;
-}
-
-
-#thurs-2 {
-  background-color: blue;
-}
-
-#thurs-2 {
-  width: 10%;
+td div {
+  /*background-color: blue;*/
+  height: auto;
 }
