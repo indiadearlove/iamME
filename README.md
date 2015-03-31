@@ -37,6 +37,11 @@ In short, the idea is you can create calendars based on your interests and then 
 - Rspec/Capybara
 - AWS (S3 Buckets)
 
+## Screenshots
+
+![image](https://raw.githubusercontent.com/indiadearlove/iamME/master/app/assets/images/screenshot1.png)
+![image](https://raw.githubusercontent.com/indiadearlove/iamME/master/app/assets/images/screenshot3.png)
+
 ## Contributors
 
 - [Charlie Walsh](https://github.com/ciawalsh) 
@@ -45,6 +50,6 @@ In short, the idea is you can create calendars based on your interests and then 
 - [India Dearlove](https://github.com/indiadearlove)
 - [Gus Powell](https://github.com/guspowell)
  
-#### Going Forward
+## Going Forward
 
 This will not be an open source project. 
